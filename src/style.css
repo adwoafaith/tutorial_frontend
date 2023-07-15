@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+    color: blue;
+
+}
+.booklist{
+    width: 90vw;
+    max-width: 11870px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+}
+@media screen and (min-width:768) {
+.booklist{
+ grid-template-columns: repeat(3,1fr);
+ align-items: self-start;
+    }
+    
+}
+.book{
+    background-color:rgb(15, 134, 214);
+    border-radius: 0rem;
+    padding: 1rem 2rem;
+}
+.book h1{
+    margin-top: 0.5rem; }
+h4{
+    color: blueviolet;
+    letter-spacing:  5px ;
+    border-width: 1cap;
+    font-size: large;
+    margin: 0cqh;
+}
+.reference{
+    color: blue;
+    border-style: outset;
+}
